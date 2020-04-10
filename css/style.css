@@ -1,0 +1,51 @@
+html {
+  background: url("../img/records-bg.jpg") center / cover no-repeat;
+  font-size: 62,5%;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.keys {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.key {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: .4rem solid #000;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  flex-basis: 8rem;
+  margin: 1rem;
+  max-width: 8rem;
+  padding: 1rem 0.5rem;
+  text-shadow: 0 0 .5rem #000;
+  transition: all .08s ease-in-out;
+}
+
+.playing {
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+  transform: scale(1.1);
+}
+
+.kbd {
+  color: #fff;
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  color: #ffc600;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+}
